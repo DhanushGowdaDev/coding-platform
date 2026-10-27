@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Accessibility: make keyboard focus easy to see */
+:focus-visible {
+  outline: 3px solid #005fcc;
+  outline-offset: 3px;
+}
+
+/* Keep focus visible on the code editor */
+.CodeMirror-focused {
+  outline: 3px solid #005fcc;
+  outline-offset: 2px;
+}
