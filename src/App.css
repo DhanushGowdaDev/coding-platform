@@ -310,3 +310,25 @@ transform: translateY(0);
     width: 100%;
   }
 }
+
+/* Accessibility: keyboard-friendly problem selection */
+.problem-select-button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #767676;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #1f2937;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.problem-select-button:hover {
+  background: #e0e0e0;
+}
+
+.problem-select-button:focus-visible {
+  outline: 3px solid #005fcc;
+  outline-offset: 3px;
+}
